@@ -48,6 +48,12 @@ const WebForm = ({ pageId, fanPageName, onCancel }) => {
           <button type="button" onClick={onCancel}>Cancel</button>
         </div>
       </form>
+      {
+        pageId === '146771728516882' && (<a href='https://www.facebook.com/profile.php?id=61552140546298' target='_blank'>go To Fan Page to see your Posts</a>)
+      }
+      
+
+
     </div>
   );
 };

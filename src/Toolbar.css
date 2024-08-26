@@ -1,0 +1,41 @@
+/* Toolbar.css */
+
+.toolbar {
+    width: 70px;
+    background-color: #00a8ff; /* Example color, adjust as needed */
+    height: 100vh; /* Full height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.toolbar-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.toolbar-item {
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.toolbar-item-selected {
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    color: #030202;
+    cursor: pointer;
+    background-color: antiquewhite;
+    transition: background-color 0.3s;
+}
+
+
+.toolbar-item:hover {
+    background-color: #007bb5; /* Darker blue on hover */
+}

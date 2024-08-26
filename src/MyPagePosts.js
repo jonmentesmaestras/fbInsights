@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import FanPageList from './FanPageList';
 import WebForm from './WebForm';
 import PageImpressions from './PageImpressions';
+import Toolbar from './Toolbar'; // Import the Toolbar component
 import './MyPagePosts.css';
 
 const MyPagePosts = () => {
@@ -64,11 +65,13 @@ const MyPagePosts = () => {
 
   return (
     <div className="page-posts-container">
+      <Toolbar></Toolbar>
       <div className="sidebar">
-        <h2>Insights</h2>
+        <h2>Manage Pages</h2>
         <div className="search-bar">
-          <input type="text" placeholder="Search accounts" />
+         
         </div>
+        Your available pages:
         <FanPageList
           fanPages={fanPages}
           onFanPageClick={(pageId, fanPageName) =>
@@ -91,7 +94,7 @@ const MyPagePosts = () => {
         )}
         
         {formVisible ? (Array.isArray(impressionsData) && impressionsData.length > 0 && (
-                        <PageImpressions data={impressionsData} />)):(<h2>Do not have permission to see the Statistics</h2>)}
+                        <PageImpressions data={impressionsData} />)):(<h2></h2>)}
         
         
 
