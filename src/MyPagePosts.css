@@ -1,0 +1,99 @@
+.page-posts-container {
+    display: flex;
+    height: 100vh;
+    background-color: #f9f9f9;
+  }
+  
+  .sidebar {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-right: 1px solid #eaeaea;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-bar button {
+    width: 20%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search-bar button i {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .account-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .account-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .account-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #6c757d;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  .account-name {
+    flex-grow: 1;
+    font-size: 18px;
+  }
+  
+  .insights-button {
+    padding: 5px 10px;
+    border: 1px solid #28a745;
+    background-color: #fff;
+    color: #28a745;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .insights-button:hover {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .main-content h3 {
+    color: #777;
+  }
+  

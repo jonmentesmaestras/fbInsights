@@ -1,0 +1,27 @@
+/* PageImpressions.css */
+
+.page-impressions {
+    flex: 1; /* Take available space on the right */
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for visibility */
+    border-left: 1px solid #ccc; /* Border to separate from the form */
+}
+
+.impression-item {
+    margin-bottom: 20px;
+}
+
+.impression-item h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.impression-item p {
+    font-size: 14px;
+    color: #666;
+}
+
+.impression-item ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
